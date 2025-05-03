@@ -1,0 +1,31 @@
+A. Array Coloring
+time limit per test1 second
+memory limit per test256 megabytes
+You are given an array consisting of 𝑛
+ integers. Your task is to determine whether it is possible to color all its elements in two colors in such a way that the sums of the elements of both colors have the same parity and each color has at least one element colored.
+
+For example, if the array is [1,2,4,3,2,3,5,4
+], we can color it as follows: [1,2,4,3,2,3,5,4
+], where the sum of the blue elements is 6
+ and the sum of the red elements is 18
+.
+
+Input
+The first line contains an integer 𝑡
+ (1≤𝑡≤1000
+) — the number of test cases.
+
+Each test case begins with a line containing an integer 𝑛
+ (2≤𝑛≤50
+) — the length of the array 𝑎
+.
+
+The next line contains 𝑛
+ integers 𝑎1,𝑎2,…,𝑎𝑛
+ (1≤𝑎𝑖≤50
+) — the elements of the array 𝑎
+.
+
+Output
+For each test case, output "YES" (without quotes) if it is possible to color the array in two colors in such a way that the sums of the elements of both colors have the same parity and each color has at least one element colored, and "NO" otherwise.
+
